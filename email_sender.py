@@ -98,7 +98,7 @@ def main():
 
     # Generate random from email
     random_id = random.randint(100, 999)
-    args.from_email = f"rewards-{random_id}@wealthsharefoundation.com"
+    args.from_email = f"rewards-{random_id}@webibly.com"
 
     print(f"📧 From: {random.choice(from_names)} <{args.from_email}>")
     print(f"📝 Subject: {random.choice(subjects)}")
